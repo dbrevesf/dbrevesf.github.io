@@ -1,5 +1,5 @@
 ---
-title:  "Python Revision - Section 1 - Data Types"
+title:  "Python Revision - Section I - Data Types"
 date:   2018-08-06 22:02:00
 categories: [python]
 tags: [python, data types, programming]
