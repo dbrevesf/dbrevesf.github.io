@@ -30,6 +30,15 @@ changed or replaced.
     #=> prints 'bla bla ble ble' to STDOUT.
     ```
 
+    We can also write print formatting like this:
+
+    ``` python
+    text = "ble ble"
+    print(f"bla bla {text}")
+    #=> prints 'bla bla ble ble' to STDOUT.
+    ```
+
+
 
 ### Lists
 
