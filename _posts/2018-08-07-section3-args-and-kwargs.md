@@ -1,7 +1,7 @@
 ---
 title:  "Python Revision - Section III - *args and **kwargs"
 date:   2018-08-07 16:20:00
-categories: [python]
+categories: [Python]
 tags: [python, args, kwargs, programming]
 ---
 
@@ -18,7 +18,7 @@ def myfunc(*args):
 myfunc(40,60,20)
 ```
 
-Also, we don't need to use the word 'args' for it. We can choose any word
+Also, we don't need to use the word ```args``` for it. We can choose any word
 we want. 
 
 ```python
@@ -43,5 +43,8 @@ def myfunc(**kwargs):
 myfunc(fruit='pineapple')
 ```
 
-We can combine *args and **kwargs in the same function, but we necessarily  
-have to put *args before **kwargs.
+We can combine ```*args``` and ```**kwargs``` in the same function, but we necessarily have to put ```*args``` before ```**kwargs```.
+
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 

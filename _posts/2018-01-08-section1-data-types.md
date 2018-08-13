@@ -1,7 +1,7 @@
 ---
 title:  "Python Revision - Section I - Data Types"
 date:   2018-08-06 22:02:00
-categories: [python]
+categories: [Python]
 tags: [python, data types, programming]
 ---
 
@@ -17,7 +17,7 @@ In Python we just have: integers and floating-point numbers.
 changed or replaced.
 
 - Methods:
-    ``` python
+    ```python
     s.upper()
     s.lower()
     s.split()
@@ -25,14 +25,14 @@ changed or replaced.
 
 - Print Formatting:
 
-    ``` python
+    ```python
     print("bla bla {}".format("ble ble"))
     #=> prints 'bla bla ble ble' to STDOUT.
     ```
 
     We can also write print formatting like this:
 
-    ``` python
+    ```python
     text = "ble ble"
     print(f"bla bla {text}")
     #=> prints 'bla bla ble ble' to STDOUT.
@@ -44,7 +44,7 @@ changed or replaced.
 
 - Methods:
 
-    ``` python
+    ```python
     l.append()
     l.pop()
     ```
@@ -53,7 +53,7 @@ changed or replaced.
 
 - Methods:
 
-    ``` python
+    ```python
     d.keys()
     d.values()
     d.items()
@@ -62,24 +62,26 @@ changed or replaced.
 
 ### Tuples
 
-- Immutability: Use tubles to present things that shouldn't be changed, such as 
-days of week. 
+- Immutability: Use tuples to present things that shouldn't be changed, such as days of week. 
 
 - Methods:
 
-    ``` python
+    ```python
     t.index("value")
     t.count("value")
     ```
 
-    - Tuples doesn't have a append method.
+    - Tuples doesn't have an append method.
 
 ### Sets
     
-- Unique elements. We can get a list of unique element calling the set 
-function. 
+- Unique elements. We can get a list of unique element calling the set function. 
 
-    ``` python
+    ```python
     set(list)
     ```
 
+
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 

@@ -1,7 +1,7 @@
 ---
 title:  "Python Revision - Section IV - Lambda, Map and Filter"
 date:   2018-08-07 17:20:00
-categories: [python]
+categories: [Python]
 tags: [python, statements, programming]
 ---
 
@@ -9,7 +9,7 @@ tags: [python, statements, programming]
 
 ### Map Function
 
-The map function allow us to map a function to a iterable object.
+The map function allow us to map a function to an iterable object.
 
 ```python
     def square(num):
@@ -47,17 +47,14 @@ consider True results.
 
 Sometimes we face a case that we need to use a certain function just once. And
 maybe this function is so simple that we can write it in just one line. That's
-why lambda expressions exists. Sometimes writing a def function isn't necessary
-so we use lambda expressions to attend our needs. For example: we can write a 
-function in order to get the square of a number:
+why lambda expressions exists. Sometimes writing a def function isn't necessary so we use lambda expressions to attend our needs. For example: we can write a function in order to get the square of a number:
 
 ```python
 def square(x):
     return x**2
 ```
 
-But, if we have a list of numbers which we want to obtain its squares, instead
-of iterate over the list and call the square function, we can do this way:
+But, if we have a list of numbers which we want to obtain its squares, instead of iterate over the list and call the square function, we can do this way:
 
 ```python
 my_nums = [0,1,2,3]
@@ -74,3 +71,7 @@ lambda x,y: x+y
 
 **Attention!! Not every function can be translated into a lambda 
 expression!!!**
+
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 

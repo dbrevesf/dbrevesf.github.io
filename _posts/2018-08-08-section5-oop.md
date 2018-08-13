@@ -1,10 +1,8 @@
 ---
 title:  "Python Revision - Section V - OOP"
 date:   2018-08-07 18:50:00
-categories: [python]
+categories: [Python]
 tags: [python, oop, object-oriented-programming, programming]
----
-
 ---
 
 Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects. Each object is an instance of a class. Each class is defined by its attributes and its methods. Attributes are characteristics of an object. Methods are operations we can perform with the object. A class is a blueprint that defines the nature of a future object. Let’s see an example and how a class is created in Python:
@@ -422,3 +420,8 @@ In Python, everything's an object, including classes. Thus, we have a class that
 Yes, it's just a shallow explanation about it and still very complicated. But, let's see what the Python Guru Tim Peters said about metaclasses:
 
 "Metaclasses are deeper magic that 99% of users should never worry about. If you wonder whether you need them, you don't (the people who actually need them know with certainty that they need them, and don't need an explanation about why)"
+
+
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 
