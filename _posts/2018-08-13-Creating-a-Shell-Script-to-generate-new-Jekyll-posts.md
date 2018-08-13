@@ -39,7 +39,7 @@ To run this script, you must execute it like this:
 
 ```./new_post.sh "My New Post"```
 
-Let's supose that you executed it on 13th August of 2018 at 19:10:30. So, it will generate a file with the following title:
+Let's suppose that you executed it on 13th August of 2018 at 19:10:30. So, it will generate a file with the following title:
 
 ``` 2018-08-13-My-New-Post.md ```
 

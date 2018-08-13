@@ -45,7 +45,7 @@ When we have to use an attribute, we use the keyword ```self``` before the attri
 
 ### Static Methods
 
-As we have a Class Object Attribute, we also can write static methods that are methods which can be called without requiring an instance. And, since instances are always referenced through ```self```, static methods have no access to self and have no self parameter. An example of a static method using the Dog class could be ```eat```. No matter what kind of dog is, it will always eat. So we can create a static method for ```eat```:
+As we have a Class Object Attribute, we also can write static methods that are methods which can be called without requiring an instance. And, since instances are always referenced through ```self```, static methods have no access to self and have no ```self`` parameter. An example of a static method using the Dog class could be ```eat```. No matter what kind of dog is, it will always eat. So we can create a static method for ```eat```:
 
 ```python
 class Dog(object):
@@ -64,8 +64,7 @@ class Dog(object):
         print("Eating")
 ```
 
-The ```@staticmethod```decorator is used to make it clear that this method 
-should not receive the instance (```self```) as the first parameter. 
+The ```@staticmethod```decorator is used to make it clear that this method should not receive the instance (```self```) as the first parameter. 
 
 ### Class Methods
 
@@ -329,7 +328,7 @@ del book
 
 #### Private Methods
 
-In Python we can implement encapsulation but it can't trully restric the access to methods and variables. We can prevent the data from being modified by accident, but if someone wants modify a variable or execute a private method, he or she will do it. Let's see some examples:
+In Python, we can implement encapsulation but it can't restrict the access to methods and variables. We can prevent the data from being modified by accident, but if someone wants to modify a variable or execute a private method, he or she will do it. Let's see some examples:
 
 We can create a class Car which has two methods: ```drive()```and ```update_software()```. When a car object is created, it will call the private method ```__updateSoftware()```. This method cannot be called on the object directly, only from within the class.
 
@@ -364,7 +363,7 @@ redcar._Car__updateSoftware()
 
 #### Private Variables
 
-Like Private Methods, we can also have private variables and the way of declaring them is putting two underscores before the name when you'll declare a new variable. The reason of the existence of private variables is to restrict some attributes of a class of being changed. 
+Like Private Methods, we can also have private variables and the way of declaring them is putting two underscores before the name when you'll declare a new variable. The reason for the existence of private variables is to restrict some attributes of a class of being changed. 
 
 ```python
 class Car:

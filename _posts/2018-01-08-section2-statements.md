@@ -14,7 +14,7 @@ for (t1, t2) in list:
     print (t1, t2)
 ```
 
-The same behavior is valid to iterate over a dictionary.
+The same behaviour is valid to iterate over a dictionary.
 
 ## Usefull Operators:
 
@@ -47,7 +47,7 @@ for i, element in enumerate(my_list, 1):
 
 ### zip
 
-Generator used to combine two lists
+A generator used to combine two lists
 
 ```python
 list_1 = [1,2,3]

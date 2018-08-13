@@ -13,8 +13,7 @@ In Python we just have: integers and floating-point numbers.
 
 ### Strings
 
-- Immutability: Once a string is created, the elements within it can not be 
-changed or replaced.
+- Immutability: Once a string is created, the elements within it can not be changed or replaced.
 
 - Methods:
     ```python
@@ -62,7 +61,7 @@ changed or replaced.
 
 ### Tuples
 
-- Immutability: Use tuples to present things that shouldn't be changed, such as days of week. 
+- Immutability: Use tuples to present things that shouldn't be changed, such as days of the week. 
 
 - Methods:
 
@@ -75,7 +74,7 @@ changed or replaced.
 
 ### Sets
     
-- Unique elements. We can get a list of unique element calling the set function. 
+- Unique elements: we can get a list of unique element calling the set function. 
 
     ```python
     set(list)

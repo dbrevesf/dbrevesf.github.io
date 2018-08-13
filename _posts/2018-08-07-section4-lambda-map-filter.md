@@ -9,7 +9,7 @@ tags: [python, statements, programming]
 
 ### Map Function
 
-The map function allow us to map a function to an iterable object.
+The map function allows us to map a function to an iterable object.
 
 ```python
     def square(num):
@@ -20,7 +20,7 @@ The map function allow us to map a function to an iterable object.
     map(square, my_nums)
 ```
 
-To obtain the mapped values, we need to iterate over map or cast it to a list.
+To obtain the mapped values, we need to iterate over the map or cast it to a list.
 
 ```python
     list(map(square, my_nums))
@@ -45,9 +45,7 @@ consider True results.
 
 ### Lambda Expressions
 
-Sometimes we face a case that we need to use a certain function just once. And
-maybe this function is so simple that we can write it in just one line. That's
-why lambda expressions exists. Sometimes writing a def function isn't necessary so we use lambda expressions to attend our needs. For example: we can write a function in order to get the square of a number:
+Sometimes we face a case that we need to use a certain function just once. And maybe this function is so simple that we can write it in just one line. That's why lambda expressions exist. Sometimes writing a def function isn't necessary so we use lambda expressions to attend to our needs. For example, we can write a function in order to get the square of a number:
 
 ```python
 def square(x):

@@ -28,9 +28,7 @@ def myfunc(*integers):
 
 ### **kargs
 
-In other hand, Python offers a way to handle arbitrary numbers of keyworded 
-arguments. Instead of creating a tuple of values, **kwargs builds a dictionary
-of key/value pairs.
+In other hands, Python offers a way to handle arbitrary numbers of keyworded arguments. Instead of creating a tuple of values, **kwargs builds a dictionary of key/value pairs.
 
 
 ```python
