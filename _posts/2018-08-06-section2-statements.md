@@ -57,6 +57,8 @@ list(zip(list_1, list_2))
 #=> prints [(1,'a'), (2,'b'), (3, 'c')]
 ```
 
+___
+
 I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
 
 *Forte Abraço* 

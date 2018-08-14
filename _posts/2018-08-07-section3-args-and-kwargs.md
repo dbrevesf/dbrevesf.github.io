@@ -43,6 +43,8 @@ myfunc(fruit='pineapple')
 
 We can combine ```*args``` and ```**kwargs``` in the same function, but we necessarily have to put ```*args``` before ```**kwargs```.
 
+___
+
 I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
 
 *Forte Abraço* 

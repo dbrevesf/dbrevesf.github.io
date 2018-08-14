@@ -1,19 +1,22 @@
-class Car:
+#! /usr/local/bin/python3
+"""
+Module of test
+"""
 
-    def __init__(self):
-        self.__updateSoftware()
+import unittest
+import cap
 
-    def drive(self):
-        print('Driving')
+class TestCap(unittest.TestCase):
 
-    # private method
-    def __updateSoftware(self):
-        print('Updating software')
+    def test_one_word(self):
+        text = 'python'
+        result = cap.cap_text(text)
+        self.assertEqual(result, 'Python')
 
-redcar = Car()
-# Updating software
-redcar.drive()
-# Driving
-redcar.__updateSoftware()
-# AttributeError: 'Car' object has no attribute '__updateSoftware'
+    def test_multiple_words(self):
+        text = 'monty python'
+        result = cap.cap_text(text)
+        self.assertEqual(result, 'Monty Python')
 
+if __name__ == '__main__':
+    unittest.main()

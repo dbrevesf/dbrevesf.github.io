@@ -36,3 +36,24 @@ In the ```__init__.py``` file, we can define which module the package will expor
 ```python
 __all__=["bar"]
 ```
+
+### The ```__name__ == '__main__'``` verification
+
+When we create a new module we can use it imported in other modules but we also would want to use it as a script. To make this differentiation we need to check if ```__name__ == '__main__'```. Because if it's true, that's because the module was called directly, as a script and if it's not, the module was imported. So, it's pretty usual that in a module we have this kind of implementation:
+
+```python
+def func1():
+    pass
+
+def func2():
+    pass
+
+if __name__ == '__main__':
+    func1()
+    func2()
+```
+___
+
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 

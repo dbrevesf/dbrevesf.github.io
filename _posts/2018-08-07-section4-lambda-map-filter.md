@@ -70,6 +70,8 @@ lambda x,y: x+y
 **Attention!! Not every function can be translated into a lambda 
 expression!!!**
 
+___
+
 I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
 
 *Forte Abraço* 
