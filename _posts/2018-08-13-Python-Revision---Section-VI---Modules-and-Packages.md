@@ -1,8 +1,8 @@
 ---
 title: "Python Revision - Section VI - Modules and Packages"
 date:  2018-08-13 20:00:28
-categories: []
-tags: []
+categories: [Python]
+tags: [python, modules, packages, programming]
 ---
 
 ### Modules
