@@ -65,5 +65,9 @@ a = x[4]
 
 The execution will stop where the command ```pdb.set_trace()``` is written and we can use 'q' to quit. For further details, [click here!](https://docs.python.org/3/library/pdb.html "Here")
 
+___
 
+I hope it will be helpful to you and if there's any questions or something else, please, feel free to contact me. 
+
+*Forte Abraço* 
 
