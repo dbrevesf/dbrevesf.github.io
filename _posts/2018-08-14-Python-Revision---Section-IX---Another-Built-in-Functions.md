@@ -24,8 +24,8 @@ reduce(lambda x,y:x+y, lst)
 ```
 
 Lets look at a diagram to get a better understanding of what's going on here:
- 
-![reduce function](http://www.python-course.eu/images/reduce_diagram.png "Reduce exectution")
+
+![reduce function](https://python-course.eu/images/reduce_diagram.png "Reduce exectution")
 
 As the image shows to us, the ```reduce()``` is reducing the sequence, applying the function passed as a parameter until a single final value. 
 
