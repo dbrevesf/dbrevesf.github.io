@@ -1,4 +1,4 @@
-# Daniel Breves' Blog
+# Lazy Bird
 
 Welcome to my personal blog: https://dbrevesf.github.io
 
