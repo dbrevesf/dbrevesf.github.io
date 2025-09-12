@@ -1,18 +1,15 @@
 ---
-title: "Lazy Bird Design Doc v1.0"
+title: "Lazy Bird - General Framework"
 date:  2025-09-12 16:56:55
 categories: ["Lazy Bird Project"]
 tags: []
 ---
 
-# Lazy Bird Project: General Framework
-## Design Doc v1.0
-
-### Project Overview
+## Project Overview
 
 The Lazy Bird Project is a repository of intentionally broken but complete systems designed for educational purposes and hiring assessments. Rather than studying problems in isolation, this project creates realistic end-to-end applications that demonstrate how performance issues manifest across the full technology stack, from database to user interface.
 
-### Core Philosophy
+## Core Philosophy
 
 **Complete System Approach**: Instead of isolated exercises, each broken system includes frontend, backend, and database layers to show how performance problems propagate through real applications.
 
@@ -20,15 +17,15 @@ The Lazy Bird Project is a repository of intentionally broken but complete syste
 
 **Practical Learning Environment**: Provides controlled, reproducible environments where engineers can study and fix common production problems without real-world consequences.
 
-### Primary Use Cases
+## Primary Use Cases
 
 1. **Hiring Assessments**: Standardized evaluation of candidates' optimization skills
 2. **Educational Tool**: Hands-on learning platform for software engineers
 3. **Interview Preparation**: Practical exercises for common technical interview scenarios
 
-### Technical Architecture
+## Technical Architecture
 
-#### Project Structure Framework (Monorepo Approach)
+### Project Structure Framework (Monorepo Approach)
 
 ```
 broken-system-exercise/
@@ -62,7 +59,7 @@ broken-system-exercise/
 - **Protected Testing**: Evaluation infrastructure separated from modifiable code
 - **Flexible Technology Choices**: Structure supports different tech stacks based on problem requirements
 
-#### Problem Documentation & Solution Management
+### Problem Documentation & Solution Management
 
 **DETONADO.md**: Comprehensive instruction document provided with each broken system.
 
@@ -78,9 +75,9 @@ broken-system-exercise/
 - Solution validation to verify DETONADO.md instructions actually resolve the issues
 - Candidate comparison against known optimal solutions
 
-### Cross-Environment Consistency
+## Cross-Environment Consistency
 
-#### Containerized Testing Strategy
+### Containerized Testing Strategy
 
 1. **Docker with Resource Limits**: Standardized execution environment regardless of host machine
 2. **Relative Performance Metrics**: Focus on improvement ratios rather than absolute timing
@@ -88,14 +85,14 @@ broken-system-exercise/
 4. **Cloud-Based Final Validation**: GitHub Actions or similar for consistent, reproducible results
 5. **Protected Test Images**: Immutable testing infrastructure prevents manipulation
 
-#### Anti-Cheating Measures
+### Anti-Cheating Measures
 
 1. **Two-Container Architecture**: Application container (modifiable by candidates) and testing container (protected and immutable).
 2. **Automated Execution**: Candidates run simple commands that execute full test suites without exposing internal testing logic.
 
-### Assessment Framework
+## Assessment Framework
 
-#### Evaluation Criteria
+### Evaluation Criteria
 1. **Technical Correctness**: Proper implementation of optimization techniques
 2. **Relative Performance Impact**: Meaningful improvement ratios that demonstrate understanding of optimization principles
 3. **Query Plan Evidence**: Database execution plans showing efficient operations
