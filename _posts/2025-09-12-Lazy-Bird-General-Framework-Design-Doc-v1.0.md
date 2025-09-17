@@ -1,5 +1,5 @@
 ---
-title: "Lazy Bird - General Framework"
+title: "Lazy Bird - General Framework v1.0 - [OUTDATED]"
 date:  2025-09-12 16:56:55
 categories: ["Lazy Bird Project"]
 tags: []
