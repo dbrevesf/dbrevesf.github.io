@@ -7,7 +7,7 @@ tags: []
 
 The first broken system is finally complete. It took slightly longer than expected because I wanted to build a solid foundation for future systems. There was also a lot to learn and adapt along the way. This first iteration took 15 days from issue creation to completion, plus about a week of planning and GitHub setup and issues creation.
 
-You can see it here: https://github.com/br-lazy-bird/lazy-bird 
+[You can see it here on GitHub.](https://github.com/br-lazy-bird/lazy-bird)
 
 ## Learnings
 
