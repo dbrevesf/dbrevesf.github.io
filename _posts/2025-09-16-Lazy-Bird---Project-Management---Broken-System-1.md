@@ -1,5 +1,5 @@
 ---
-title: "Lazy Bird - Project Management - Broken System 1"
+title: "Lazy Bird - Project Management - Broken System 1 - Employee Directory"
 date:  2025-09-16 17:35:16
 categories: ["Lazy Bird Project"]
 tags: []
