@@ -1,6 +1,6 @@
 ---
-title: "Lazy Bird - Broken System #5 - Data Integrity: Flash Sales Race Condition - Design Doc v1.0"
-date:  2026-01-15 12:55:46
+title: "Lazy Bird - Broken System #5 "
+date:  2026-01-15
 categories: ["Lazy Bird Project"]
 tags: ["concurrency", "race-condition", "database", "locking"]
 ---
